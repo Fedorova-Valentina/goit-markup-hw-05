@@ -469,9 +469,19 @@
         <div class="emeil-container">
           <p class="social-text">Subscribe</p>
           <form class="email-form">
-            <label class="label-email">
-              <input type="email" name="email" placeholder="E-meil" />
-            </label>
+            <label class="label-email" for="email"> </label>
+            <div class="email-input-wrapper">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="E-meil"
+              />
+              <svg class="email-input-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </div>
+
             <buttom type="submit">Subscribe</buttom>
           </form>
         </div>
@@ -482,7 +492,7 @@
       <div class="modal">
         <button class="modal-buttom" type="buttom">
           <svg class="modal-buttom-icon" width="24" height="24">
-            <use href=""></use>
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-caption">
@@ -503,7 +513,7 @@
                 placeholder="Enter your name"
               />
               <svg class="modal-form-icon" width="18" height="24">
-                <use href=""></use>
+                <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
@@ -521,7 +531,7 @@
                 placeholder="Enter your phone number"
               />
               <svg class="modal-form-icon" width="18" height="24">
-                <use href=""></use>
+                <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
@@ -539,7 +549,7 @@
                 placeholder="Enter your e-mail"
               />
               <svg class="modal-form-icon" width="18" height="24">
-                <use href=""></use>
+                <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
@@ -553,11 +563,11 @@
               name="comment"
               id="comment"
               rows="4"
-              placeholder="Enter your comment"
+              placeholder="Text input"
             ></textarea>
           </div>
 
-          <div class="modal">
+          <div class="modal-form-field">
             <label
               class="modal-form-label"
               for="agreement"
