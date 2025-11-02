@@ -597,7 +597,7 @@ input::placeholder {
   transform: translate(-50%, -50%);
   transition-delay: 300ms;
 }
-.modal-buttom {
+.modal-button {
   top: 24px;
   right: 24px;
   width: 24px;
@@ -614,12 +614,12 @@ input::placeholder {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.modal-buttom:hover,
-.modal-buttom:focus {
+.modal-button:hover,
+.modal-button:focus {
   background-color: #404bbf;
   border: none;
 }
-.modal-buttom-icon {
+.modal-button-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-caption {
@@ -634,7 +634,7 @@ input::placeholder {
   margin-bottom: 16px;
 }
 .modal-form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-form-label {
   display: block;
