@@ -635,7 +635,7 @@ input::placeholder {
   margin-bottom: 16px;
 }
 .modal-form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-form-label {
   display: block;
@@ -662,7 +662,7 @@ input::placeholder {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form-input:hover {
+.modal-form-input:focus {
   border-color: #4d5ae5;
 }
 .modal-form-icon {
@@ -675,6 +675,9 @@ input::placeholder {
 }
 .modal-form-input:hover + .modal-form-icon {
   fill: #4d5ae5;
+}
+.modal-form-textarea {
+  margin-bottom: 16px;
 }
 .modal-textarea {
   outline: transparent;
