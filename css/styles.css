@@ -751,6 +751,7 @@ input::placeholder {
   display: block;
   min-width: 169px;
   height: 56px;
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
